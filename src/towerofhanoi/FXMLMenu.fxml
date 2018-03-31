@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="182.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="towerofhanoi.FXMLMenuController">
+   <children>
+      <ChoiceBox id="cbxNumberOfDiscs" fx:id="cbxNumberOfDiscs" layoutX="38.0" layoutY="148.0" prefWidth="150.0" value="1">
+          <items>
+              <FXCollections fx:factory="observableArrayList">
+                <String fx:value="1" />
+                <String fx:value="2" />
+                <String fx:value="3" />
+                <String fx:value="4" />
+              </FXCollections>
+          </items>
+      </ChoiceBox>
+      <Button fx:id="Generate" layoutX="282.0" layoutY="148.0" mnemonicParsing="false" onAction="#GenerateClick" prefHeight="25.0" prefWidth="103.0" text="Generate" />
+      <Label alignment="CENTER" layoutX="173.0" layoutY="52.0" prefHeight="36.0" prefWidth="125.0" scaleX="3.0" scaleY="2.0" text="Tower of Hanoi" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Heavy Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
