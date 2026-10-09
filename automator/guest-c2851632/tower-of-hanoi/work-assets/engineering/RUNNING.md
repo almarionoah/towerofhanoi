@@ -1,6 +1,6 @@
 # How to run Tower of Hanoi locally
 
-_Maintained by Jax Marlow (Engineering). Updated 2026-10-09T22:08:24.090Z._
+_Maintained by Prism Petrov (Engineering). Updated 2026-10-09T22:11:55.319Z._
 
 This guide gets a working version of **Tower of Hanoi** running on macOS, Linux or Windows using **npm** or **http-server**.
 
@@ -46,4 +46,4 @@ Open http://localhost:8080 in your browser.
 - Blank page → open the browser console (F12) and check for missing environment variables.
 
 ## 6. Work assets for this project
-- `work-assets/engineering/split-monolith-module.md` — split monolith module
+- `work-assets/engineering/cache-hot-query-path.md` — cache hot query path
